@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f0f6f7;
+}
+
+/*  */
+
+.main {
+  max-width: 1140px;
+  border-radius: 10px;
+  background-color: #e0f1f4;
+  padding: 10px 0 0 50px;
+  display: flex;
+  gap: 2rem;
+  margin: auto;
+  margin-top: 50px;
+  flex: 1;
+  padding: 30px 20px 20px 40px;
+}
+
+hr {
+  width: 50px;
+  display: inline-block;
+}
+
+.words {
+  color: gray;
+}
+
+h1 {
+  color: #024430;
+  font-size: 4rem;
+  margin: 0;
+  width: 650px;
+}
+
+.content {
+  width: 550px;
+  line-height: 25px;
+  font-family: var(--primary-font);
+  visibility: visible;
+  animation-delay: 1s;
+  color: #6c757d;
+}
+
+/*  Inpute and button */
+
+.email {
+  border-style: none;
+  width: 350px;
+  height: 50px;
+  border-radius: 50px;
+  padding: 0 20px;
+  outline: none;
+  position: absolute;
+}
+
+.email::placeholder {
+  color: gray;
+  font-size: 15px;
+}
+
+.btn {
+  border-style: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #024430;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  margin-top: 5px;
+  left: 280px;
+  cursor: pointer;
+}
+
+.img {
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+  margin: 0;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.two {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Responsiveness of the of the webpage */
+
+@media (max-width: 1200px) {
+  .img {
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
+  }
+
+  .rigth {
+    margin-left: -25px;
+  }
+
+  .two {
+    height: 250px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .img {
+    width: 160px;
+    height: 130px;
+    object-fit: cover;
+  }
+
+  .two {
+    height: 200px;
+  }
+
+  h1 {
+    width: 600px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .img {
+    display: none;
+  }
+
+  h1 {
+    width: 950px;
+  }
+
+  .content {
+    width: 850px;
+    line-height: 2;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 980px) {
+  .main {
+    width: 800px;
+  }
+
+  h1 {
+    width: 550px;
+  }
+
+  .content {
+    width: 800px;
+  }
+}
+
+@media (max-width: 700px) {
+  .main {
+    width: 520px;
+    margin: auto;
+    margin: 10px;
+    border-radius: 20px;
+  }
+  .content {
+    width: 500px;
+  }
+}
