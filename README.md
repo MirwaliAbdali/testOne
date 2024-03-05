@@ -1,1 +1,1 @@
-# Softelino-HomPage-7
+simplePage
